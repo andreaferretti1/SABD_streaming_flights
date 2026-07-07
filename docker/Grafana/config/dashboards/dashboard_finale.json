@@ -1737,7 +1737,7 @@
     "preload": false,
     "tags": [],
     "timeSettings": {
-      "autoRefresh": "",
+      "autoRefresh": "10s",
       "autoRefreshIntervals": [
         "5s",
         "10s",
@@ -1751,10 +1751,10 @@
         "1d"
       ],
       "fiscalYearStartMonth": 0,
-      "from": "now-6h",
+      "from": "2025-01-01T00:00:00.000Z",
       "hideTimepicker": false,
       "timezone": "browser",
-      "to": "now"
+      "to": "2025-06-01T00:00:00.000Z"
     },
     "title": "Query results",
     "variables": [
@@ -1783,7 +1783,7 @@
             },
             "version": "v0"
           },
-          "refresh": "onDashboardLoad",
+          "refresh": "onTimeRangeChanged",
           "regex": "",
           "regexApplyTo": "value",
           "skipUrlSync": false,
@@ -1816,7 +1816,7 @@
             },
             "version": "v0"
           },
-          "refresh": "onDashboardLoad",
+          "refresh": "onTimeRangeChanged",
           "regex": "",
           "regexApplyTo": "value",
           "skipUrlSync": false,
@@ -1849,7 +1849,7 @@
             },
             "version": "v0"
           },
-          "refresh": "onDashboardLoad",
+          "refresh": "onTimeRangeChanged",
           "regex": "",
           "regexApplyTo": "value",
           "skipUrlSync": false,
